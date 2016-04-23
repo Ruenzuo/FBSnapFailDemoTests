@@ -10,7 +10,7 @@ end
 namespace :test do
   desc 'Runs application tests'
   task :snapshot do
-    system "xcodebuild -workspace FBSnapFailDemo.xcworkspace -scheme FBSnapFailDemo -sdk iphonesimulator -destination platform='iOS Simulator',OS=9.2,name='iPhone 5s' clean test 2>&1 | tee xcodebuild.log"
+    system "set -o pipefail; xcodebuild -workspace FBSnapFailDemo.xcworkspace -scheme FBSnapFailDemo -sdk iphonesimulator -destination platform='iOS Simulator',OS=9.2,name='iPhone 5s' clean test 2>&1 | tee xcodebuild.log"
     exit $?.exitstatus
   end
 end
