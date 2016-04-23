@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2E36F21CCBCDE2000737CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E36F11CCBCDE2000737CF /* main.m */; };
+		3F2E36F51CCBCDE2000737CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E36F41CCBCDE2000737CF /* AppDelegate.m */; };
+		3F2E37001CCBCDE2000737CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2E36FF1CCBCDE2000737CF /* Assets.xcassets */; };
+		3F2E37031CCBCDE2000737CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2E37011CCBCDE2000737CF /* LaunchScreen.storyboard */; };
+		3F2E370E1CCBCDE2000737CF /* FBSnapFailDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E370D1CCBCDE2000737CF /* FBSnapFailDemoTests.m */; };
+		3F2E371A1CCBD066000737CF /* SimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E37191CCBD066000737CF /* SimpleView.m */; };
+		3F2E371D1CCBD2A9000737CF /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E371C1CCBD2A9000737CF /* SimpleViewController.m */; };
+		40D44FAFD4518C5F46E4B7A7 /* Pods_FBSnapFailDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A682B9899B575496EA09AA67 /* Pods_FBSnapFailDemoTests.framework */; };
+		EEF9B2D0A89F4539C174EF90 /* Pods_FBSnapFailDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A204982150317A4205910856 /* Pods_FBSnapFailDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F2E370A1CCBCDE2000737CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2E36E51CCBCDE2000737CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2E36EC1CCBCDE2000737CF;
+			remoteInfo = FBSnapFailDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AA8B6E2109D42EB84CD725 /* Pods-FBSnapFailDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBSnapFailDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBSnapFailDemoTests/Pods-FBSnapFailDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		141A7452BD8E1C39643C2F8C /* Pods-FBSnapFailDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBSnapFailDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBSnapFailDemo/Pods-FBSnapFailDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3F2E36ED1CCBCDE2000737CF /* FBSnapFailDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBSnapFailDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2E36F11CCBCDE2000737CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F2E36F31CCBCDE2000737CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F2E36F41CCBCDE2000737CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F2E36FF1CCBCDE2000737CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F2E37021CCBCDE2000737CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F2E37041CCBCDE2000737CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2E37091CCBCDE2000737CF /* FBSnapFailDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBSnapFailDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2E370D1CCBCDE2000737CF /* FBSnapFailDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSnapFailDemoTests.m; sourceTree = "<group>"; };
+		3F2E370F1CCBCDE2000737CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2E37181CCBD066000737CF /* SimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleView.h; sourceTree = "<group>"; };
+		3F2E37191CCBD066000737CF /* SimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleView.m; sourceTree = "<group>"; };
+		3F2E371B1CCBD2A9000737CF /* SimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		3F2E371C1CCBD2A9000737CF /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
+		A1E467453F876BDD064B764D /* Pods-FBSnapFailDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBSnapFailDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBSnapFailDemo/Pods-FBSnapFailDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A204982150317A4205910856 /* Pods_FBSnapFailDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBSnapFailDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A682B9899B575496EA09AA67 /* Pods_FBSnapFailDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBSnapFailDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3372210B3FC1438F955F624 /* Pods-FBSnapFailDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBSnapFailDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBSnapFailDemoTests/Pods-FBSnapFailDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2E36EA1CCBCDE2000737CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF9B2D0A89F4539C174EF90 /* Pods_FBSnapFailDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2E37061CCBCDE2000737CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D44FAFD4518C5F46E4B7A7 /* Pods_FBSnapFailDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F2E36E41CCBCDE2000737CF = {
+			isa = PBXGroup;
+			children = (
+				3F2E36EF1CCBCDE2000737CF /* FBSnapFailDemo */,
+				3F2E370C1CCBCDE2000737CF /* FBSnapFailDemoTests */,
+				3F2E36EE1CCBCDE2000737CF /* Products */,
+				C776F8FDA25C7812B363599A /* Pods */,
+				E8964FBA89014C5439B1D914 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F2E36EE1CCBCDE2000737CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F2E36ED1CCBCDE2000737CF /* FBSnapFailDemo.app */,
+				3F2E37091CCBCDE2000737CF /* FBSnapFailDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2E36EF1CCBCDE2000737CF /* FBSnapFailDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3F2E36F31CCBCDE2000737CF /* AppDelegate.h */,
+				3F2E36F41CCBCDE2000737CF /* AppDelegate.m */,
+				3F2E36FF1CCBCDE2000737CF /* Assets.xcassets */,
+				3F2E37011CCBCDE2000737CF /* LaunchScreen.storyboard */,
+				3F2E37041CCBCDE2000737CF /* Info.plist */,
+				3F2E36F01CCBCDE2000737CF /* Supporting Files */,
+				3F2E37181CCBD066000737CF /* SimpleView.h */,
+				3F2E37191CCBD066000737CF /* SimpleView.m */,
+				3F2E371B1CCBD2A9000737CF /* SimpleViewController.h */,
+				3F2E371C1CCBD2A9000737CF /* SimpleViewController.m */,
+			);
+			path = FBSnapFailDemo;
+			sourceTree = "<group>";
+		};
+		3F2E36F01CCBCDE2000737CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F2E36F11CCBCDE2000737CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F2E370C1CCBCDE2000737CF /* FBSnapFailDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2E370D1CCBCDE2000737CF /* FBSnapFailDemoTests.m */,
+				3F2E370F1CCBCDE2000737CF /* Info.plist */,
+			);
+			path = FBSnapFailDemoTests;
+			sourceTree = "<group>";
+		};
+		C776F8FDA25C7812B363599A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00AA8B6E2109D42EB84CD725 /* Pods-FBSnapFailDemoTests.debug.xcconfig */,
+				C3372210B3FC1438F955F624 /* Pods-FBSnapFailDemoTests.release.xcconfig */,
+				141A7452BD8E1C39643C2F8C /* Pods-FBSnapFailDemo.debug.xcconfig */,
+				A1E467453F876BDD064B764D /* Pods-FBSnapFailDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8964FBA89014C5439B1D914 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A682B9899B575496EA09AA67 /* Pods_FBSnapFailDemoTests.framework */,
+				A204982150317A4205910856 /* Pods_FBSnapFailDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F2E36EC1CCBCDE2000737CF /* FBSnapFailDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2E37121CCBCDE2000737CF /* Build configuration list for PBXNativeTarget "FBSnapFailDemo" */;
+			buildPhases = (
+				FB32A0909C09EB4E3E7B4938 /* Check Pods Manifest.lock */,
+				3F2E36E91CCBCDE2000737CF /* Sources */,
+				3F2E36EA1CCBCDE2000737CF /* Frameworks */,
+				3F2E36EB1CCBCDE2000737CF /* Resources */,
+				DB1348FB3794D3FA723B934E /* Embed Pods Frameworks */,
+				90E8DED2B12B854F1145F7FE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapFailDemo;
+			productName = FBSnapFailDemo;
+			productReference = 3F2E36ED1CCBCDE2000737CF /* FBSnapFailDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F2E37081CCBCDE2000737CF /* FBSnapFailDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2E37151CCBCDE2000737CF /* Build configuration list for PBXNativeTarget "FBSnapFailDemoTests" */;
+			buildPhases = (
+				37A50EA39F46B418AD932F0C /* Check Pods Manifest.lock */,
+				3F2E37051CCBCDE2000737CF /* Sources */,
+				3F2E37061CCBCDE2000737CF /* Frameworks */,
+				3F2E37071CCBCDE2000737CF /* Resources */,
+				515B24E771DA86978B4A2A35 /* Embed Pods Frameworks */,
+				FE7DAFFF4B10B51DA7E26CB3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2E370B1CCBCDE2000737CF /* PBXTargetDependency */,
+			);
+			name = FBSnapFailDemoTests;
+			productName = FBSnapFailDemoTests;
+			productReference = 3F2E37091CCBCDE2000737CF /* FBSnapFailDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2E36E51CCBCDE2000737CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Renzo Crisóstomo";
+				TargetAttributes = {
+					3F2E36EC1CCBCDE2000737CF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3F2E37081CCBCDE2000737CF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3F2E36EC1CCBCDE2000737CF;
+					};
+				};
+			};
+			buildConfigurationList = 3F2E36E81CCBCDE2000737CF /* Build configuration list for PBXProject "FBSnapFailDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F2E36E41CCBCDE2000737CF;
+			productRefGroup = 3F2E36EE1CCBCDE2000737CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2E36EC1CCBCDE2000737CF /* FBSnapFailDemo */,
+				3F2E37081CCBCDE2000737CF /* FBSnapFailDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F2E36EB1CCBCDE2000737CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2E37031CCBCDE2000737CF /* LaunchScreen.storyboard in Resources */,
+				3F2E37001CCBCDE2000737CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2E37071CCBCDE2000737CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37A50EA39F46B418AD932F0C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		515B24E771DA86978B4A2A35 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBSnapFailDemoTests/Pods-FBSnapFailDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E8DED2B12B854F1145F7FE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBSnapFailDemo/Pods-FBSnapFailDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB1348FB3794D3FA723B934E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBSnapFailDemo/Pods-FBSnapFailDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB32A0909C09EB4E3E7B4938 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7DAFFF4B10B51DA7E26CB3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBSnapFailDemoTests/Pods-FBSnapFailDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F2E36E91CCBCDE2000737CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2E36F51CCBCDE2000737CF /* AppDelegate.m in Sources */,
+				3F2E371A1CCBD066000737CF /* SimpleView.m in Sources */,
+				3F2E371D1CCBD2A9000737CF /* SimpleViewController.m in Sources */,
+				3F2E36F21CCBCDE2000737CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2E37051CCBCDE2000737CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2E370E1CCBCDE2000737CF /* FBSnapFailDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F2E370B1CCBCDE2000737CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F2E36EC1CCBCDE2000737CF /* FBSnapFailDemo */;
+			targetProxy = 3F2E370A1CCBCDE2000737CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F2E37011CCBCDE2000737CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2E37021CCBCDE2000737CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F2E37101CCBCDE2000737CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F2E37111CCBCDE2000737CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F2E37131CCBCDE2000737CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141A7452BD8E1C39643C2F8C /* Pods-FBSnapFailDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBSnapFailDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruenzuo.FBSnapFailDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F2E37141CCBCDE2000737CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E467453F876BDD064B764D /* Pods-FBSnapFailDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBSnapFailDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruenzuo.FBSnapFailDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F2E37161CCBCDE2000737CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00AA8B6E2109D42EB84CD725 /* Pods-FBSnapFailDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBSnapFailDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruenzuo.FBSnapFailDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBSnapFailDemo.app/FBSnapFailDemo";
+			};
+			name = Debug;
+		};
+		3F2E37171CCBCDE2000737CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3372210B3FC1438F955F624 /* Pods-FBSnapFailDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBSnapFailDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruenzuo.FBSnapFailDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBSnapFailDemo.app/FBSnapFailDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F2E36E81CCBCDE2000737CF /* Build configuration list for PBXProject "FBSnapFailDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2E37101CCBCDE2000737CF /* Debug */,
+				3F2E37111CCBCDE2000737CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2E37121CCBCDE2000737CF /* Build configuration list for PBXNativeTarget "FBSnapFailDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2E37131CCBCDE2000737CF /* Debug */,
+				3F2E37141CCBCDE2000737CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2E37151CCBCDE2000737CF /* Build configuration list for PBXNativeTarget "FBSnapFailDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2E37161CCBCDE2000737CF /* Debug */,
+				3F2E37171CCBCDE2000737CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F2E36E51CCBCDE2000737CF /* Project object */;
+}
