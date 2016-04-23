@@ -10,5 +10,6 @@ namespace :test do
   desc 'Runs application tests'
   task :snapshot do
     system "xcodebuild -workspace FBSnapFailDemo.xcworkspace -scheme FBSnapFailDemo -sdk iphonesimulator -destination platform='iOS Simulator',OS=9.2,name='iPhone 5s' clean test"
+    exit $?.exitstatus
   end
 end
